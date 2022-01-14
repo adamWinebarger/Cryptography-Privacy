@@ -1,6 +1,6 @@
 # Cryptography & Privacy
 
-**Goal**
+**Goal:**
 
 Currently, I kind of want to split my focus between improving upon my encryption/development skills and looking into historical events or examples of cryptography & privacy. 
 
