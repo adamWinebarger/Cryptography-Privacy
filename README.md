@@ -16,5 +16,6 @@
 - Also added a loose collection of algorithms that I built using the notes from class. Currently a very rough work-in-progress as the original intent was to start merging some of these over to .NET/C# using the Windows Forms/WPF framework to make a nice all-in-one. Currently looking for a linux-based alternative. KDevelop has a framework for graphical apps that run C/C++ but it requires using a somewhat unique markup language. So that's a bit of a work in progress
 
 TODO: Find that Diffie-Hellman program that we made for discrete structures. Might be nice to include that.
+
 TODO: Learn QML?
 
