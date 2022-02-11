@@ -2,7 +2,13 @@
 
 **Goal:**
 
-Currently, I kind of want to split my focus between improving upon my encryption/development skills and looking into historical events or examples of cryptography & privacy. 
+1. Learn how historical events were influenced by encryption
+
+2. Learn about the evolution of encryption over time
+
+3. Implement various encryption methods in a programming language
+
+5. Implement encryption for messaging (maybe in discord) for possible class use
 
 **Contents:**
 
