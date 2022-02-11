@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/cryptographyandprivacystuff.dir/main.cpp.o -o cryptographyandprivacystuff 

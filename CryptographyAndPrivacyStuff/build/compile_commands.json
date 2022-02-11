@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/adam/projects/CryptographyAndPrivacyStuff/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/cryptographyandprivacystuff.dir/main.cpp.o -c /home/adam/projects/CryptographyAndPrivacyStuff/main.cpp",
+  "file": "/home/adam/projects/CryptographyAndPrivacyStuff/main.cpp"
+}
+]

@@ -1,0 +1,41 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x006\x00C\x00r\x00y\x00p\x00t\x00o\x00g\x00r\x00a\x00p\x00h\x00y\x00A\x00n\x00d\x00P\x00r\x00i\x00v\x00a\x00c\x00y\x00S\x00t\x00u\x00f\x00f)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index-Host System=0
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=/home/adam/projects/CryptographyAndPrivacyStuff/build
+Build Type=Debug
+CMake Binary=/usr/bin/cmake
+CMake Executable=/usr/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=/usr/local
+Runtime=Host System
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=cryptographyandprivacystuff
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x006\x00C\x00r\x00y\x00p\x00t\x00o\x00g\x00r\x00a\x00p\x00h\x00y\x00A\x00n\x00d\x00P\x00r\x00i\x00v\x00a\x00c\x00y\x00S\x00t\x00u\x00f\x00f\x00\x00\x006\x00c\x00r\x00y\x00p\x00t\x00o\x00g\x00r\x00a\x00p\x00h\x00y\x00a\x00n\x00d\x00p\x00r\x00i\x00v\x00a\x00c\x00y\x00s\x00t\x00u\x00f\x00f)
+Dependency Action=Build
+EnvironmentGroup=
+Executable=file:///home/adam/projects/CryptographyAndPrivacyStuff
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Kill Before Executing Again=4194304
+Project Target=CryptographyAndPrivacyStuff,cryptographyandprivacystuff
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
+[Project]
+VersionControlSupport=
