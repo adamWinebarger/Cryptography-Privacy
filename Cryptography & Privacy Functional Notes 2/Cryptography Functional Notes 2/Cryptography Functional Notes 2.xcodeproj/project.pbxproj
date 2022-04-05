@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50A190BF27FC858A009BEEBB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A190BE27FC858A009BEEBB /* main.cpp */; };
+		50A190C727FC8631009BEEBB /* Basics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A190C627FC8631009BEEBB /* Basics.cpp */; };
+		50A190C927FC86A7009BEEBB /* Affine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A190C827FC86A7009BEEBB /* Affine.cpp */; };
+		50A190CB27FC8C7B009BEEBB /* PlayfairCipher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A190CA27FC8C7B009BEEBB /* PlayfairCipher.cpp */; };
+		50A190CD27FC9020009BEEBB /* ThreePass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A190CC27FC9020009BEEBB /* ThreePass.cpp */; };
+		50A190CF27FC914C009BEEBB /* Vigener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A190CE27FC914C009BEEBB /* Vigener.cpp */; };
+		50A190D127FC935E009BEEBB /* DiffieHellman1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50A190D027FC935E009BEEBB /* DiffieHellman1.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		50A190B927FC858A009BEEBB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		50A190BB27FC858A009BEEBB /* Cryptography Functional Notes 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Cryptography Functional Notes 2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A190BE27FC858A009BEEBB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		50A190C527FC859A009BEEBB /* hedr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hedr.hpp; sourceTree = "<group>"; };
+		50A190C627FC8631009BEEBB /* Basics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Basics.cpp; sourceTree = "<group>"; };
+		50A190C827FC86A7009BEEBB /* Affine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Affine.cpp; sourceTree = "<group>"; };
+		50A190CA27FC8C7B009BEEBB /* PlayfairCipher.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PlayfairCipher.cpp; sourceTree = "<group>"; };
+		50A190CC27FC9020009BEEBB /* ThreePass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ThreePass.cpp; sourceTree = "<group>"; };
+		50A190CE27FC914C009BEEBB /* Vigener.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Vigener.cpp; sourceTree = "<group>"; };
+		50A190D027FC935E009BEEBB /* DiffieHellman1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DiffieHellman1.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50A190B827FC858A009BEEBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50A190B227FC858A009BEEBB = {
+			isa = PBXGroup;
+			children = (
+				50A190BD27FC858A009BEEBB /* Cryptography Functional Notes 2 */,
+				50A190BC27FC858A009BEEBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50A190BC27FC858A009BEEBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50A190BB27FC858A009BEEBB /* Cryptography Functional Notes 2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50A190BD27FC858A009BEEBB /* Cryptography Functional Notes 2 */ = {
+			isa = PBXGroup;
+			children = (
+				50A190BE27FC858A009BEEBB /* main.cpp */,
+				50A190C527FC859A009BEEBB /* hedr.hpp */,
+				50A190C627FC8631009BEEBB /* Basics.cpp */,
+				50A190C827FC86A7009BEEBB /* Affine.cpp */,
+				50A190CA27FC8C7B009BEEBB /* PlayfairCipher.cpp */,
+				50A190CC27FC9020009BEEBB /* ThreePass.cpp */,
+				50A190CE27FC914C009BEEBB /* Vigener.cpp */,
+				50A190D027FC935E009BEEBB /* DiffieHellman1.cpp */,
+			);
+			path = "Cryptography Functional Notes 2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50A190BA27FC858A009BEEBB /* Cryptography Functional Notes 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A190C227FC858A009BEEBB /* Build configuration list for PBXNativeTarget "Cryptography Functional Notes 2" */;
+			buildPhases = (
+				50A190B727FC858A009BEEBB /* Sources */,
+				50A190B827FC858A009BEEBB /* Frameworks */,
+				50A190B927FC858A009BEEBB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cryptography Functional Notes 2";
+			productName = "Cryptography Functional Notes 2";
+			productReference = 50A190BB27FC858A009BEEBB /* Cryptography Functional Notes 2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50A190B327FC858A009BEEBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					50A190BA27FC858A009BEEBB = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 50A190B627FC858A009BEEBB /* Build configuration list for PBXProject "Cryptography Functional Notes 2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50A190B227FC858A009BEEBB;
+			productRefGroup = 50A190BC27FC858A009BEEBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50A190BA27FC858A009BEEBB /* Cryptography Functional Notes 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50A190B727FC858A009BEEBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A190D127FC935E009BEEBB /* DiffieHellman1.cpp in Sources */,
+				50A190C927FC86A7009BEEBB /* Affine.cpp in Sources */,
+				50A190C727FC8631009BEEBB /* Basics.cpp in Sources */,
+				50A190CF27FC914C009BEEBB /* Vigener.cpp in Sources */,
+				50A190CB27FC8C7B009BEEBB /* PlayfairCipher.cpp in Sources */,
+				50A190CD27FC9020009BEEBB /* ThreePass.cpp in Sources */,
+				50A190BF27FC858A009BEEBB /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		50A190C027FC858A009BEEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		50A190C127FC858A009BEEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		50A190C327FC858A009BEEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6DJT9B43C7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50A190C427FC858A009BEEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6DJT9B43C7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50A190B627FC858A009BEEBB /* Build configuration list for PBXProject "Cryptography Functional Notes 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A190C027FC858A009BEEBB /* Debug */,
+				50A190C127FC858A009BEEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A190C227FC858A009BEEBB /* Build configuration list for PBXNativeTarget "Cryptography Functional Notes 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A190C327FC858A009BEEBB /* Debug */,
+				50A190C427FC858A009BEEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50A190B327FC858A009BEEBB /* Project object */;
+}
